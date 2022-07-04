@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * Return: always return 0
+ * Return: Always return 0
  *
  */
 int main(void)
@@ -18,11 +19,11 @@ printf("%d is negative\n", n);
 }
 else if (n == 0)
 {
-printf("%d is Zero\n", n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is positive\n", n);
+printf("%d is passive\n", n);
 }
 return (0);
 }
