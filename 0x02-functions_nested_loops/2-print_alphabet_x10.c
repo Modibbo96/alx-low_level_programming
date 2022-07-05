@@ -4,16 +4,16 @@
  *
  * Return: void
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 int y;
-int x
+int x;
 
 for (x = 0; x < 10; x++)
 {
-for (j = 'a'; j <= 'z'; j++)
+for (y = 'a'; y <= 'z'; y++)
 {
-_putchar(j);
+_putchar(y);
 }
 _putchar('\n');
 }
