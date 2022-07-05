@@ -7,18 +7,17 @@
  */
 int main(void)
 {
-unsigned char a = '0';
-int 1;
-for (i = 0; i < 10; i++)
+char low;
+char row;
+row = 'a';
+for (low = 0; low < 10; low++)
 {
-putchar(a);
-a++;
+putchar(low + '0');
 }
-a = '1';
-for (i = 0; i < 6; i++)
+for (low = 10; low <= 15; low++)
 {
-putchar('0' + a);
-a++;
+putchar(row);
+row++;
 }
 putchar('\n');
 return (0);
