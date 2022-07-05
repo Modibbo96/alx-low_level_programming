@@ -4,19 +4,17 @@
  *
  * Return: void
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
-char c;
-int i = 0;
-while (i < 10)
+int y;
+int x
+
+for (x = 0; x < 10; x++)
 {
-c = 'a';
-while (c <= 'z')
+for (j = 'a'; j <= 'z'; j++)
 {
-_putchar(c);
-c++;
+_putchar(j);
 }
 _putchar('\n');
-i++;
 }
 }
