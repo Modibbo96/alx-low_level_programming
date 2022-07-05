@@ -14,11 +14,11 @@ for (i = 0; i <= 99; j++)
 {
 for (i = j; i <= 99; i++)
 {
-putchar(i / 10 + 48);
-putchar(i % 10 + 48);
+putchar(j / 10 + 48);
+putchar(j % 10 + 48);
 putchar(' ');
-putchar(j / 10 + 48);
-putchar(j / 10 + 48);
+putchar(i / 10 + 48);
+putchar(i / 10 + 48);
 if (j * 100 + i != 9899)
 {
 putchar(',');
