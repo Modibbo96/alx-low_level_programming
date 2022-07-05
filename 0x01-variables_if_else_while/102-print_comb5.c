@@ -10,20 +10,19 @@ int main(void)
 {
 int i;
 int j;
-for (i = 0; i <= 99; j++)
+for (i = 0; i <= 99;)
 {
-for (i = j; i <= 99; i++)
+for (j = i + 1; j <= 99; j++)
 {
-putchar(j / 10 + 48);
-putchar(j % 10 + 48);
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
 putchar(' ');
-putchar(i / 10 + 48);
-putchar(i / 10 + 48);
-if (j * 100 + i != 9899)
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
+if (i < 98)
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
