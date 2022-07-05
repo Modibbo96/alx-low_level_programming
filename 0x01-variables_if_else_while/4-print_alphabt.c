@@ -6,14 +6,16 @@
  */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
+char low;
+low = 'a';
+while (low <= 'z')
 {
-if (a == 'q' || a == 'e')
+if (low != 'e' && low != 'q')
 {
-continiue;
+putchar(low);
 }
-putchar (a);
+low++;
 }
+putchar('\n');
 return (0);
 }
