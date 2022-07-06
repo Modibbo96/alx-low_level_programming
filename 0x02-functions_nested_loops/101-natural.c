@@ -7,23 +7,12 @@
  */
 int main(void)
 {
-unsigned long int sum3, sum5, sum;
-int i;
-int sum3 = 0;
-int sum5 = 0;
-int sum = 0;
-for (i = 0; i < 1024; ++i)
+int i, sum = 0;
+for (i = 0; i < 1024; i++)
 {
-if ((i % 3) == 0)
-{
-sum3 = sum3 + i;
+if ((i % 5) == 0 || (i % 3) == 0)
+sum += i;
 }
-else if ((i % 5) == 0)
-{
-sum5 = sum5 + i;
-}
-}
-sum = sum3 + sum5;
-printf("%lu\n", sum);
+printf("%d\n", sum);
 return (0);
 }
