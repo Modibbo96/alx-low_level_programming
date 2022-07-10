@@ -1,22 +1,25 @@
 #include "main.h"
 
 /**
-  * print_square - draws a straight line
+  * print_triangle - draws a straight line
   * @size: number of lines
   */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 	int l, x;
 
 	for (l = 1; l <= size; l++)
 	{
-		for (x = 1; x <= l; x++)
+		for (x = size; x >= 1; x--)
 		{
-			while (x <= size)
+			if (x <= l)
 			{
-			x++;
 			_putchar('#');
+			}
+			else
+			{
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
