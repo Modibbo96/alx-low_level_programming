@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
+  *<<<<<<< HEAD
   *_atoi - convert string to integer.
   *@s: sring
   *Return: integer
@@ -40,7 +40,8 @@ int _atoi(char *s)
 			answer = -answer;
 	}
 	return (answer);
-=======
+/**	
+  *=======
   * _atoi - convert a string to an integer
   * @s: string
   * Return: integer
@@ -66,5 +67,5 @@ int _atoi(char *s)
 		i++;
 	}
 	return (x * neg);
->>>>>>> 8ac966bdc674573a268d0088a526d26b04d93f58
+ >>>>>>> 8ac966bdc674573a268d0088a526d26b04d93f58
 }
